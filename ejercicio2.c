@@ -28,8 +28,6 @@ int main()
     if(userNumber % 2 == 0)
     {
         printf("%d es un número par :)\n", userNumber);
-    } else {
-        printf("%d no es par :(\n",userNumber);
     }
 
     system("pause");
