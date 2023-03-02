@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.23)
+project(estructurasSelectivas C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(ejem1 ejemplo1.c)
+add_executable(ejem2 ejemplo2.c)
+add_executable(ejem3 ejemplo3.c)
+add_executable(eje1 ejercicio1.c)
+add_executable(eje2 ejercicio2.c)
+add_executable(eje3 ejercicio3.c)
+add_executable(eje4 ejercicio4.c)
+add_executable(eje5 ejercicio5.c)
+add_executable(eje6 ejercicio6.c)
