@@ -9,11 +9,10 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <math.h>
-#include <complex.h>
 
 int main(){
 
-    /* Definimos las variables defininidas, en este caso flotantes porque no sabria que datos escribiría
+    /* Definimos las variables definidas, en este caso flotantes porque no sabria que datos escribiría
      * el usuario
     */
     float a,b,c, disc, raiz1, raiz2;
