@@ -26,19 +26,19 @@ int main(){
     scanf("%f", &num3);
 
     if (num1 > num2 && num1 > num3){
-        if (num1 >= 1 || num1 <= 10){
+        if (num1 >= 1 && num1 <= 10){
             printf("%.2f Es el numero mayor y esta entre 1 y 10\n", num1);
         } else{
             printf("%.2f Es el numero mayor", num1);
         }
     } else if (num2 > num1 && num2 > num3){
-        if (num2 >= 1 || num2 <= 10){
+        if (num2 >= 1 && num2 <= 10){
             printf("%.2f Es el numero mayor y esta entre 1 y 10\n", num2);
         } else{
             printf("%.2f Es el numero mayor", num2);
         }
     } else if (num3 > num1 && num3 > num2){
-        if (num3 >= 1 || num3 <= 10){
+        if (num3 >= 1 && num3 <= 10){
             printf("%.2f Es el numero mayor y esta entre 1 y 10\n", num3);
         } else{
             printf("%.2f Es el numero mayor", num3);
