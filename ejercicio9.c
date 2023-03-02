@@ -35,6 +35,10 @@ int main(){
     float horasTrabajadas, pago;
     char userJob;
 
+    // Definimos el idioma a trabajar
+    setlocale(LC_CTYPE, "SPANISH");
+
+
     printf("----------------------------------------\n");
     printf("          CALCULADORA DE SALARIO    \n");
     printf("----------------------------------------\n");
