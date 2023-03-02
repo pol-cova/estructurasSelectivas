@@ -33,31 +33,35 @@ int main(){
 
     disc = (b * b) - 4*(a*c);
 
-    if (disc > 0){
-        disc = sqrtf(disc);
+    if (a != 0){
+        if (disc > 0){
+            disc = sqrtf(disc);
 
-        raiz1 = (-b + disc) / 2*a;
-        raiz2 = (-b - disc) / 2*a;
+            raiz1 = (-b + disc) / 2*a;
+            raiz2 = (-b - disc) / 2*a;
 
-        printf("La raíz 1 de tu ecuación es: %.2f", raiz1);
-        printf("La raíz 2 de tu ecuación es: %.2f", raiz2);
+            printf("La raíz 1 de tu ecuación es: %.2f", raiz1);
+            printf("La raíz 2 de tu ecuación es: %.2f", raiz2);
 
-    } else if (disc == 0){
-        disc = sqrtf(disc);
+        } else if (disc == 0){
+            disc = sqrtf(disc);
 
-        raiz1 = (-b + disc) / 2*a;
-        raiz2 = raiz1;
+            raiz1 = (-b + disc) / 2*a;
+            raiz2 = raiz1;
 
-        printf(" En este caso las raíces son iguales, entonces el valor de la raíz es: %.2f ", raiz2);
+            printf(" En este caso las raíces son iguales, entonces el valor de la raíz es: %.2f ", raiz2);
 
-    } else if (disc < 0){
-        printf("Tu ecuación no tiene solución real, la solución es compleja desearías ver la solución compleja\n");
-        printf("-----------------\n");
+        } else if (disc < 0){
+            printf("Tu ecuación no tiene solución real, la solución es compleja desearías ver la solución compleja\n");
+            printf("-----------------\n");
 
-        disc = -1 * disc;
+            disc = -1 * disc;
 
-        printf("La raíz compleja 1 de tu ecuación es: (-%.2f + i √ %.2f )/ 2 %.2f \n", b,disc,a);
-        printf("La raíz compleja 1 de tu ecuación es: (-%.2f - i √ %.2f )/ 2 %.2f \n", b,disc,a);
+            printf("La raíz compleja 1 de tu ecuación es: (-%.2f + i √ %.2f )/ 2 %.2f \n", b,disc,a);
+            printf("La raíz compleja 1 de tu ecuación es: (-%.2f - i √ %.2f )/ 2 %.2f \n", b,disc,a);
+        }
+    } else {
+        printf("ERROR, a vale 0...");
     }
 
     system("pause");
