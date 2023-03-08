@@ -409,6 +409,99 @@ build eje9: C_EXECUTABLE_LINKER__eje9_Debug CMakeFiles/eje9.dir/ejercicio9.c.o
   TARGET_FILE = eje9
   TARGET_PDB = eje9.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ejeD1
+
+
+#############################################
+# Order-only phony target for ejeD1
+
+build cmake_object_order_depends_target_ejeD1: phony || CMakeFiles/ejeD1.dir
+
+build CMakeFiles/ejeD1.dir/estructurasDobles/ejeD1.c.o: C_COMPILER__ejeD1_Debug /Users/paulcontreras/Documents/GitHub/estructurasSelectivas/estructurasDobles/ejeD1.c || cmake_object_order_depends_target_ejeD1
+  DEP_FILE = CMakeFiles/ejeD1.dir/estructurasDobles/ejeD1.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeD1.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejeD1.dir/estructurasDobles
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejeD1
+
+
+#############################################
+# Link the executable ejeD1
+
+build ejeD1: C_EXECUTABLE_LINKER__ejeD1_Debug CMakeFiles/ejeD1.dir/estructurasDobles/ejeD1.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeD1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejeD1
+  TARGET_PDB = ejeD1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejeD2
+
+
+#############################################
+# Order-only phony target for ejeD2
+
+build cmake_object_order_depends_target_ejeD2: phony || CMakeFiles/ejeD2.dir
+
+build CMakeFiles/ejeD2.dir/estructurasDobles/ejeD2.c.o: C_COMPILER__ejeD2_Debug /Users/paulcontreras/Documents/GitHub/estructurasSelectivas/estructurasDobles/ejeD2.c || cmake_object_order_depends_target_ejeD2
+  DEP_FILE = CMakeFiles/ejeD2.dir/estructurasDobles/ejeD2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeD2.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejeD2.dir/estructurasDobles
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejeD2
+
+
+#############################################
+# Link the executable ejeD2
+
+build ejeD2: C_EXECUTABLE_LINKER__ejeD2_Debug CMakeFiles/ejeD2.dir/estructurasDobles/ejeD2.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeD2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejeD2
+  TARGET_PDB = ejeD2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejeD3
+
+
+#############################################
+# Order-only phony target for ejeD3
+
+build cmake_object_order_depends_target_ejeD3: phony || CMakeFiles/ejeD3.dir
+
+build CMakeFiles/ejeD3.dir/estructurasDobles/ejeD3.c.o: C_COMPILER__ejeD3_Debug /Users/paulcontreras/Documents/GitHub/estructurasSelectivas/estructurasDobles/ejeD3.c || cmake_object_order_depends_target_ejeD3
+  DEP_FILE = CMakeFiles/ejeD3.dir/estructurasDobles/ejeD3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeD3.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejeD3.dir/estructurasDobles
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejeD3
+
+
+#############################################
+# Link the executable ejeD3
+
+build ejeD3: C_EXECUTABLE_LINKER__ejeD3_Debug CMakeFiles/ejeD3.dir/estructurasDobles/ejeD3.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejeD3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejeD3
+  TARGET_PDB = ejeD3.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -443,7 +536,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/paulcontreras/Documents/GitHub/estructurasSelectivas/cmake-build-debug
 
-build all: phony ejem1 ejem2 ejem3 eje1 eje2 eje3 eje4 eje5 eje6 eje7 eje8 eje9
+build all: phony ejem1 ejem2 ejem3 eje1 eje2 eje3 eje4 eje5 eje6 eje7 eje8 eje9 ejeD1 ejeD2 ejeD3
 
 # =============================================================================
 # Built-in targets

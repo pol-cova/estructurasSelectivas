@@ -10,5 +10,8 @@
 /Users/paulcontreras/Documents/GitHub/estructurasSelectivas/cmake-build-debug/CMakeFiles/eje7.dir
 /Users/paulcontreras/Documents/GitHub/estructurasSelectivas/cmake-build-debug/CMakeFiles/eje8.dir
 /Users/paulcontreras/Documents/GitHub/estructurasSelectivas/cmake-build-debug/CMakeFiles/eje9.dir
+/Users/paulcontreras/Documents/GitHub/estructurasSelectivas/cmake-build-debug/CMakeFiles/ejeD1.dir
+/Users/paulcontreras/Documents/GitHub/estructurasSelectivas/cmake-build-debug/CMakeFiles/ejeD2.dir
+/Users/paulcontreras/Documents/GitHub/estructurasSelectivas/cmake-build-debug/CMakeFiles/ejeD3.dir
 /Users/paulcontreras/Documents/GitHub/estructurasSelectivas/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/paulcontreras/Documents/GitHub/estructurasSelectivas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
